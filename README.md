@@ -1,1 +1,280 @@
-# historias-que-pasaron
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Historias Que Pasaron | Historias, curiosidades y misterios</title>
+
+    <meta name="description"
+          content="Historias reales, curiosidades y misterios del mundo. Descubre acontecimientos sorprendentes, datos curiosos y relatos que merecen ser contados.">
+
+    <meta name="robots" content="index, follow">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0b0b0f;
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #11111a, #171725);
+            padding: 70px 20px;
+            text-align: center;
+            border-bottom: 1px solid #292936;
+        }
+
+        .logo {
+            width: 110px;
+            height: 110px;
+            margin: 0 auto 25px;
+            border-radius: 50%;
+            background: #ffffff;
+            color: #0b0b0f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin: 0 0 15px;
+        }
+
+        .subtitle {
+            max-width: 700px;
+            margin: auto;
+            font-size: 20px;
+            color: #cccccc;
+        }
+
+        main {
+            max-width: 950px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        section {
+            margin-bottom: 45px;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #d0d0d0;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: #15151d;
+            border: 1px solid #292936;
+            border-radius: 12px;
+            padding: 25px;
+        }
+
+        .card h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            border-top: 1px solid #292936;
+            padding: 30px 20px;
+            text-align: center;
+            background: #08080c;
+        }
+
+        footer a {
+            color: #ffffff;
+            margin: 0 12px;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .notice {
+            background: #15151d;
+            border-left: 4px solid #ffffff;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 32px;
+            }
+
+            .subtitle {
+                font-size: 17px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">
+        H1M
+    </div>
+
+    <h1>Historias Que Pasaron</h1>
+
+    <p class="subtitle">
+        Historias reales, curiosidades y misterios del mundo en 60 segundos.
+    </p>
+
+</header>
+
+<main>
+
+    <section>
+
+        <h2>¿Qué es Historias Que Pasaron?</h2>
+
+        <p>
+            Historias Que Pasaron es un proyecto dedicado a descubrir y compartir
+            historias reales, acontecimientos sorprendentes, curiosidades,
+            misterios y hechos interesantes de distintas partes del mundo.
+        </p>
+
+        <p>
+            Nuestro objetivo es transformar información interesante en contenidos
+            breves, claros y entretenidos para que cualquier persona pueda
+            descubrir algo nuevo en poco tiempo.
+        </p>
+
+    </section>
+
+
+    <section>
+
+        <h2>¿Qué encontrarás?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>🌎 Historias reales</h3>
+                <p>
+                    Acontecimientos y relatos que realmente ocurrieron
+                    y que forman parte de la historia.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🔎 Curiosidades</h3>
+                <p>
+                    Datos sorprendentes, hechos poco conocidos y
+                    detalles interesantes del mundo.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🕵️ Misterios</h3>
+                <p>
+                    Casos, enigmas y acontecimientos que despertaron
+                    la curiosidad de millones de personas.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>⏱️ En 60 segundos</h3>
+                <p>
+                    Información presentada de forma breve y fácil
+                    de comprender.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>Nuestro objetivo</h2>
+
+        <div class="notice">
+
+            <p>
+                Queremos acercar historias y conocimientos interesantes
+                a una audiencia amplia mediante contenidos digitales
+                breves, educativos y entretenidos.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section>
+
+        <h2>Integración con plataformas digitales</h2>
+
+        <p>
+            Historias Que Pasaron utiliza servicios y plataformas digitales
+            para publicar y distribuir contenido audiovisual.
+        </p>
+
+        <p>
+            Cuando una integración requiere autorización del usuario,
+            esta se realiza mediante los mecanismos oficiales proporcionados
+            por la plataforma correspondiente.
+        </p>
+
+    </section>
+
+
+    <section>
+
+        <h2>Contacto</h2>
+
+        <p>
+            Para consultas relacionadas con el proyecto, sus contenidos
+            o cuestiones relacionadas con privacidad y datos, puedes
+            utilizar los canales de contacto asociados al proyecto.
+        </p>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 Historias Que Pasaron. Todos los derechos reservados.
+    </p>
+
+    <p>
+        <a href="privacidad.html">Política de Privacidad</a>
+
+        <a href="terminos.html">Términos de Servicio</a>
+    </p>
+
+</footer>
+
+</body>
+</html>
+```
